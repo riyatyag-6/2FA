@@ -131,9 +131,3 @@ npm install bcrypt dotenv express express-session mongodb mongoose nodemailer sp
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
-```
-
----
-
-This `README.md` file provides a complete and well-organized overview of your project, setup instructions, configuration steps, and troubleshooting tips, ideal for GitHub documentation. Let me know if you need further adjustments!
