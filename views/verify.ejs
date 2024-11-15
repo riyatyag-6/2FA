@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verify 2FA</title>
+  <link rel="stylesheet"  href="/styles.css"> 
+</head>
+<body>
+  <div class="container">
+    <h1>2-Factor Authentication</h1>
+    <h2>Scan the QR Code with your Authenticator App</h2>
+    <div class="qr-code">
+      <img src="https://api.qrserver.com/v1/create-qr-code/?data=<%= qrCodeUrl %>&size=200x200" alt="QR Code">
+    </div>
+    <form action="/auth/verify" method="POST">
+      <label for="token">Enter the OTP from your Authenticator App:</label>
+      <input type="text" id="token" name="token" required>
+      <button type="submit">Verify</button>
+    </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+</head>
+<body>
+    <div class="login-container">
+  <h1>Login</h1>
+  <form action="/auth/login" method="POST">
+    <label>Email:</label>
+    <input type="email" name="email" required>
+    <label>Password:</label>
+    <input type="password" name="password" required>
+
+   
+    <div class="g-recaptcha" data-sitekey="6Lf8qnsqAAAAAExw0LwlDi6-DMKpIYx3Kome0-4z"></div>
+    
+    <button type="submit">Login</button>
+  </form>
+  <p>Forgot your password? <a href="/auth/reset-password">Reset it here</a></p>
+</div>
+</body>
+</html> 
+
