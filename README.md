@@ -59,7 +59,7 @@ Before setting up the project, make sure you have the following installed:
 Create a `.env` file in the root directory of the project and add the following environment variables:
 
 ```env
-#PORT=5000
+PORT=5000
 # MongoDB URI
 MONGODB_URI=mongodb://localhost:27017/authentication_project
 
