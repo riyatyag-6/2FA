@@ -61,7 +61,7 @@ Create a `.env` file in the root directory of the project and add the following 
 ```env
 PORT=5000
 # MongoDB URI
-MONGODB_URI=mongodb://localhost:27017/authentication_project
+MONGODB_URI=mongodb://localhost:27017/authentication
 
 # Nodemailer SMTP Configuration
 EMAIL=your-email@gmail.com
